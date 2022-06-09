@@ -28,5 +28,5 @@ jobs:
           bundler-cache: true
       # Add or replace database setup steps her
       # Add or replace test runners here
-      - name: Run tests
-        run: rspec
+      - name: Run ruby tests
+        run: bin/rake
