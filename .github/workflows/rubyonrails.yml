@@ -29,4 +29,4 @@ jobs:
       # Add or replace database setup steps her
       # Add or replace test runners here
       - name: Run ruby test
-        run: sudo//home/runner/bin/rake
+        run: sudo/bin/rake
